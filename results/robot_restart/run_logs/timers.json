@@ -1,0 +1,49 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1749719086",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\user\\miniconda3\\envs\\ml_env_final\\lib\\site-packages\\mlagents\\trainers\\learn.py config/robot_config.yaml --run-id=robot_restart --resume",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.7.1+cu126",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1749719102"
+    },
+    "total": 16.099206599988975,
+    "count": 1,
+    "self": 0.014415799989365041,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07170359999872744,
+            "count": 1,
+            "self": 0.07170359999872744
+        },
+        "TrainerController.start_learning": {
+            "total": 16.013087200000882,
+            "count": 1,
+            "self": 0.0001545000122860074,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 15.63425660005305,
+                    "count": 1,
+                    "self": 15.63425660005305
+                },
+                "TrainerController._save_models": {
+                    "total": 0.3786760999355465,
+                    "count": 1,
+                    "self": 0.016503099934197962,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.36217300000134856,
+                            "count": 1,
+                            "self": 0.36217300000134856
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

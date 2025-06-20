@@ -1,0 +1,65 @@
+{
+    "RobotAgent": {
+        "checkpoints": [
+            {
+                "steps": 145555364,
+                "file_path": "results\\packaging_fix_test_23\\RobotAgent\\RobotAgent-145555364.onnx",
+                "reward": 370.3239517211914,
+                "creation_time": 1749454095.8526313,
+                "auxillary_file_paths": [
+                    "results\\packaging_fix_test_23\\RobotAgent\\RobotAgent-145555364.pt"
+                ]
+            },
+            {
+                "steps": 145558364,
+                "file_path": "results\\packaging_fix_test_23\\RobotAgent\\RobotAgent-145558364.onnx",
+                "reward": null,
+                "creation_time": 1749454341.3838098,
+                "auxillary_file_paths": [
+                    "results\\packaging_fix_test_23\\RobotAgent\\RobotAgent-145558364.pt"
+                ]
+            },
+            {
+                "steps": 145558364,
+                "file_path": "results\\packaging_fix_test_23\\RobotAgent\\RobotAgent-145558364.onnx",
+                "reward": null,
+                "creation_time": 1749454422.9826553,
+                "auxillary_file_paths": [
+                    "results\\packaging_fix_test_23\\RobotAgent\\RobotAgent-145558364.pt"
+                ]
+            },
+            {
+                "steps": 145587864,
+                "file_path": "results\\packaging_fix_test_23\\RobotAgent\\RobotAgent-145587864.onnx",
+                "reward": 243.98285537958145,
+                "creation_time": 1749454722.9512253,
+                "auxillary_file_paths": [
+                    "results\\packaging_fix_test_23\\RobotAgent\\RobotAgent-145587864.pt"
+                ]
+            },
+            {
+                "steps": 145741902,
+                "file_path": "results\\packaging_fix_test_23\\RobotAgent\\RobotAgent-145741902.onnx",
+                "reward": -223.3702564239502,
+                "creation_time": 1749525535.3164828,
+                "auxillary_file_paths": [
+                    "results\\packaging_fix_test_23\\RobotAgent\\RobotAgent-145741902.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 145741902,
+            "file_path": "results\\packaging_fix_test_23\\RobotAgent.onnx",
+            "reward": -223.3702564239502,
+            "creation_time": 1749525535.3164828,
+            "auxillary_file_paths": [
+                "results\\packaging_fix_test_23\\RobotAgent\\RobotAgent-145741902.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.7.0+cu126"
+    }
+}

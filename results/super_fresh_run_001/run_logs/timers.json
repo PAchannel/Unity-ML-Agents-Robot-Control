@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1747298864",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\data\\again\\GameBot\\GameBot\\12356\\mlagents_new_env\\Scripts\\mlagents-learn config/robot_config.yaml --run-id=super_fresh_run_001",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.7.0+cu126",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1747298964"
+    },
+    "total": 100.05572749999999,
+    "count": 1,
+    "self": 0.010815599999986603,
+    "children": {
+        "run_training.setup": {
+            "total": 0.11528220000000111,
+            "count": 1,
+            "self": 0.11528220000000111
+        },
+        "TrainerController.start_learning": {
+            "total": 99.9296297,
+            "count": 1,
+            "self": 0.0001007000000043945,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 99.9295108,
+                    "count": 1,
+                    "self": 99.9295108
+                },
+                "TrainerController._save_models": {
+                    "total": 1.8199999999524152e-05,
+                    "count": 1,
+                    "self": 1.8199999999524152e-05
+                }
+            }
+        }
+    }
+}

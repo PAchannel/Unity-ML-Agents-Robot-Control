@@ -1,0 +1,38 @@
+{
+    "RobotAgent": {
+        "checkpoints": [
+            {
+                "steps": 499000,
+                "file_path": "results\\packaging_fix_test_01\\RobotAgent\\RobotAgent-499000.onnx",
+                "reward": 0.0,
+                "creation_time": 1747309425.7841372,
+                "auxillary_file_paths": [
+                    "results\\packaging_fix_test_01\\RobotAgent\\RobotAgent-499000.pt"
+                ]
+            },
+            {
+                "steps": 782000,
+                "file_path": "results\\packaging_fix_test_01\\RobotAgent\\RobotAgent-782000.onnx",
+                "reward": null,
+                "creation_time": 1747312735.3555615,
+                "auxillary_file_paths": [
+                    "results\\packaging_fix_test_01\\RobotAgent\\RobotAgent-782000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 782000,
+            "file_path": "results\\packaging_fix_test_01\\RobotAgent.onnx",
+            "reward": null,
+            "creation_time": 1747312735.3555615,
+            "auxillary_file_paths": [
+                "results\\packaging_fix_test_01\\RobotAgent\\RobotAgent-782000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.7.0+cu126"
+    }
+}
